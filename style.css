@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eeee;
+}
+
+.container{
+    position: absolute;
+    margin: auto;
+    width: 900px;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -40%);
+    border-radius: 12px;
+    box-shadow:
+    17.7px 20.6px 20.9px rgba(0, 0, 0, 0.023),
+    31.4px 36.5px 30.7px rgba(0, 0, 0, 0.043),
+    42.3px 49.2px 37.8px rgba(0, 0, 0, 0.063),
+    55.4px 64.4px 47.4px rgba(0, 0, 0, 0.085),
+    105px 122px 80px rgba(0, 0, 0, 0.14);
+}
+
+.container h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.input-holder {
+    width: 500px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.input-holder input {
+    width: 290px;
+    border-radius: 6px;
+}
+
+.btn {
+    width: 70px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.guess-holder {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 150px;
+}
